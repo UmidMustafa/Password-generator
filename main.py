@@ -3,12 +3,8 @@ import random
 
 #validation of the password
 def f(password):
-    global n
-    global sp
-    global sa
-    has_digit = False
-    has_punct = False
-    has_letter = False
+    global n, sp, sa
+    has_digit = has_punct = has_letter = False
     
     for element in password:
         if element in n:
